@@ -1,0 +1,18 @@
+/* Flavanoids.module.css */
+.table {
+    border-collapse: collapse;
+  }
+  
+  .table td,
+  .table th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .header th {
+    background-color: #f2f2f2;
+  }
+
+  
+  

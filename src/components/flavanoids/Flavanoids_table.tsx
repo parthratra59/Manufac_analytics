@@ -7,8 +7,10 @@ import median from "../../utils/Median";
 import mode from "../../utils/Mode";
 
 const FlavanoidsTable: React.FC = () => {
+  // Function to calculate statistics for a specific alcohol class
   const getClassStats = (alcoholClass: number) => {
     const classData = WineData.filter((wine) => wine.Alcohol === alcoholClass);
+    // Filter wines by alcohol class
     const flavanoids = classData.map((wine) =>
       parseFloat(wine.Flavanoids as string)
     ); // Parse Flavanoids as a number
@@ -19,13 +21,12 @@ const FlavanoidsTable: React.FC = () => {
     };
   };
 
-  //   for checking the data of mean
-
-  //   useEffect(() => {
-  //     console.log("Mean of Alcohol Class 1:", getClassStats(1).mean);
-  //     console.log("Mean of Alcohol Class 2:", getClassStats(2).mean);
-  //     console.log("Mean of Alcohol Class 3:", getClassStats(3).mean);
-  //   }, []);
+   // **Commented out for now - potentially useful for debugging purposes
+  // useEffect(() => {
+  //   console.log("Mean of Alcohol Class 1:", getClassStats(1).mean);
+  //   console.log("Mean of Alcohol Class 2:", getClassStats(2).mean);
+  //   console.log("Mean of Alcohol Class 3:", getClassStats(3).mean);
+  // }, []);
 
   // Create rows for table
 

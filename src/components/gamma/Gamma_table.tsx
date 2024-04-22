@@ -10,7 +10,12 @@ import mode from "../../utils/Mode";
 const Gamma_table = () => {
 
   const getClassStats = (alcoholClass: number) => {
+      // Function to calculate statistics for gamma value based on alcohol class
+
     const classData = WineData.filter((wine) => wine.Alcohol === alcoholClass);
+    // Filter wines by alcohol class
+
+    // Calculate gamma for each wine in the class
     const gamma = classData.map((wine) => (wine.Ash as number* wine.Hue as number) / wine.Magnesium as number);
 
     return {

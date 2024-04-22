@@ -63,7 +63,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-https://github.com/ParthRatra/nomad_trakker.git
+https://github.com/parthratra59/Manufac_analytics.git
 ```
 
 2. Navigate to the project directory:
@@ -75,7 +75,7 @@ cd <projectdictonary>
 3. Install the required dependencies for both the frontend and backend.:
 
 ```bash
-npm install
+yarn install
 ```
 
 4. Start the project locally (Run the frontend and backend servers):

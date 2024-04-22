@@ -4,7 +4,7 @@
 
 ### About the Application## 
 
-This project is a Wine Analysis Dashboard built using Vite and Typescript, a blazing fast build tool for modern web development, along with React for creating dynamic user interfaces. It provides statistical analysis of the Wine Data Set, calculating various measures such as mean, median, and mode for Flavanoids and Gamma values.
+This Wine Analysis Dashboard is built using Vite and TypeScript for blazing fast development and enhanced type safety. It's worth noting that while React itself remains actively maintained, the React team has deprecated official support for Vite as a build tool. This decision is documented here (https://legacy.reactjs.org/docs/getting-started.html). Despite this limitation, Vite's speed and modern development features make it a popular choice for React projects. The dashboard provides statistical analysis of the Wine Data Set, calculating measures such as mean, median, and mode for Flavanoids and Gamma values.
 
 
 
